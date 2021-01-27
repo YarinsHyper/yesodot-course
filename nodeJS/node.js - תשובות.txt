@@ -1,0 +1,43 @@
+1) קוד סינכרוני הוא קוד שכל מטלה שמתבצעת חוסמת את המשך הריצה ואת ביצוע שאר המטלות עד לסיומה
+קוד הוא אסינכרוני אם הוא מסוגל להתמודד עם מספר מטלות בו בעת מבלי לחסום את שאר המטלות ומבלי להמתין עד שמטלה מסתיימת
+a) 
+let fs = require('fs');
+
+filenames = fs.readdirSync(".");
+for (i = 0; i < filenames.length; i++) {
+    console.log(filenames[i]);
+}
+
+processId = process.getuid();
+console.log(processId);
+
+פלט: 
+$ nodejs test.js 
+test.js
+test_sync.js
+1000
+
+b) 
+let fs = require('fs');
+
+fs.readdir(".", function (err, filenames) {
+    let i;
+    for (i = 0; i < filenames.length; i++) {
+        console.log(filenames[i]);
+    }
+});
+
+processId = process.getuid();
+console.log(processId);
+
+פלט:
+$ nodejs test.js 
+1000
+test.js
+test_sync.js
+
+2)  הוא אובייקט שמקשר בין הפקת קוד לצריכת קוד promise- הוא פונקציה שמועברת בתור פרמטר/ארגומנט לפונקציה אחרת ו callback -ההבדל הוא ש 
+a) החסרונות שלו הם שצריך לחכות לשאר התהליכים שלפניו שייקרו כי הקוד נקרא מלמעלה למטה מה שגורם לדיליי
+3) callbvack queue - לולאה שבודקת כל הזמן אם יש פונקציות שממתינות ל
+4) npm- כן תוך כדי שימוש ב
+5) node מנהל חבילות של

@@ -1,0 +1,7 @@
+npm packages:
+
+* terminal kit(cli) - https://www.npmjs.com/package/terminal-kit
+
+*prompt(input) - https://www.codecademy.com/articles/getting-user-input-in-node-js
+
+*mime (mime-types) - https://www.npmjs.com/package/mime-types
