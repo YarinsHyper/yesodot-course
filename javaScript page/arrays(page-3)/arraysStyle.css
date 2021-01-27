@@ -1,0 +1,204 @@
+body {
+    background-color:rgb(185, 221, 233);
+    margin:0;
+    padding:0;
+}
+
+#lsOutput {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color:rgb(185, 221, 233);
+    height:auto;
+    width:100%;
+}
+
+.topLayer {
+    display:flex;
+    border: none; 
+    border-bottom: 2px solid black;
+    justify-content: center;
+    background-color:rgb(202, 202, 202);
+    height:50px;
+    padding:55;
+}
+
+#selectBox {
+    padding:5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:22px;
+    color:black;
+    background-color:rgb(185, 221, 233);
+    font-family:'Open Sans', sans-serif;
+}
+
+#searchInput {
+    padding:5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:22px;
+    color:black;
+    background-color:rgb(185, 221, 233);
+    font-family:'Open Sans', sans-serif;
+}
+
+#findButton {
+    padding:5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:22px;
+    color:black;
+    background-color:rgb(185, 221, 233);
+    font-family:'Open Sans', sans-serif;
+}
+
+#allGradesGreaterThan {
+    padding:5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:22px;
+    color:black;
+    background-color:rgb(185, 221, 233);
+    font-family:'Open Sans', sans-serif;
+    margin-top:-15px;
+}
+
+#someGradesGreaterThan {
+    padding:5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:22px;
+    color:black;
+    background-color:rgb(185, 221, 233);
+    font-family:'Open Sans', sans-serif;
+    margin-top:-15px;
+}
+
+#arrayFilterAndManipulation {
+    padding:5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:22px;
+    color:black;
+    background-color:rgb(185, 221, 233);
+    font-family:'Open Sans', sans-serif;
+    margin-top:-15px;
+}
+
+.card {
+    border: 2px solid black;
+    box-shadow: 3px 2px 7px rgb(143, 152, 156);
+    text-align:center;
+    width: 280px;
+    height: 350px;
+    border-radius:22px;
+    margin: 15px 48px;
+}
+
+.age {
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:35px;
+}
+
+.age::before {
+    content: "Age: ";
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:22px;
+}
+
+.name {
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.name::before {
+    content: "Name: ";
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:22px;
+}
+
+.admin {
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.admin::before {
+    content: "Admin: ";
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:22px;
+}
+
+.grades {
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.grade::before {
+    content: "Grade: ";
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:22px;
+}
+
+.address {
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+}
+
+.address::before {
+    content: "Address: ";
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:22px;
+}
+
+.houseNumber {
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    margin:25;
+}
+
+.houseNumber::before {
+    content: "House Number: ";
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:22px;
+}
+
+.city {
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    font-weight:bold;
+}
+
+.city::before {
+    content: "City: ";
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:22px;
+}

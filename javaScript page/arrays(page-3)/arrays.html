@@ -1,0 +1,37 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Arrays</title>
+    <link rel="stylesheet" href="arraysStyle.css">
+</head>
+
+<body>
+
+    <div class="topLayer">
+        <div><select name="select" id="selectBox">
+            <option value="">Choose Option</option>
+            <option value="Age">Age</option>
+            <option value="Name">Name</option>
+            <option value="Admin">Admin</option>
+            <option value="Grades">Grades</option>
+            <option value="Address">Address</option>
+            </select>
+        </div>
+
+        <div><input type="text" id="searchInput" name="username" placeholder="Search Something.."></div>
+
+        <div><button type="button" id="findButton" onclick="checkSelectOption()">Find</button></div>
+
+        <div><button type="button" id="allGradesGreaterThan" onclick="showCardsAllGradesGreater()">All Grades Greater Than</button></div>
+
+        <div><button type="button" id="someGradesGreaterThan" onclick="showCardsSomeGradesGreater()">Some Grades Greater Than</button></div>
+
+        <div><button type="button" id="arrayFilterAndManipulation" onclick="ArrayFilterAndManipulation()">Array Filter & Manipulation</button></div>
+    </div>
+
+    <div id="lsOutput"></div>
+
+    <script src="arraysMain.js" ></script>
+
+</body>
+</html>

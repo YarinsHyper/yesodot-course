@@ -1,0 +1,101 @@
+body {
+    background-color:rgb(185, 221, 233);
+    margin:0;
+    padding:0;
+}
+
+.topLayer {
+    display: flex;
+    border: none;
+    border-bottom: 2px solid black;
+    justify-content: center;
+    background-color: rgb(202, 202, 202);
+    height: 50px;
+    padding: 55;
+}
+
+#input {
+    padding: 5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0px 35px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(185, 221, 233);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#fibonacciButton {
+    padding: 5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0px 35px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(185, 221, 233);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size:26px;
+    margin-top:5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sizeSlider {
+    padding: 5;
+    width:200px;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0px 35px;
+    margin-top:8px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(185, 221, 233);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-size:26px;
+    margin-top:5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+}
+
+#amountSlider {
+    padding: 5;
+    width:200px;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0px 35px;
+    margin-top:8px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(185, 221, 233);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#myCanvas {
+    border:1px solid black;
+    border:none;
+    margin-left:30%;
+    margin-top:2px;
+}
+
+.fibonacci {
+    width:auto;
+    height:30px;
+}
+
+#fibonacciSeries {
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+}

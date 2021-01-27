@@ -1,0 +1,150 @@
+body {
+    background-color:rgb(185, 221, 233);
+    margin:0;
+    padding:0;
+}
+
+.topLayer {
+    display:flex;
+    border: none; 
+    border-bottom: 2px solid black;
+    justify-content: center;
+    background-color:rgb(202, 202, 202);
+    height:50px;
+    padding:55;
+}
+
+#usernameInput {
+    padding:5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:25px;
+    color:black;
+    background-color:rgb(185, 221, 233);
+    font-family:'Open Sans', sans-serif;
+}
+
+#professionInput {
+    padding:5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:25px;
+    color:black;
+    background-color:rgb(185, 221, 233);
+    font-family:'Open Sans', sans-serif;
+}
+
+#emailInput {
+    padding:5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:25px;
+    color:black;
+    background-color:rgb(185, 221, 233);
+    font-family:'Open Sans', sans-serif;
+}
+
+button {
+    padding:5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:25px;
+    background-color:rgb(185, 221, 233);
+    font-family:'Open Sans', sans-serif;
+}
+
+::placeholder {
+    color:black;
+} 
+
+
+#lsOutput {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color:rgb(185, 221, 233);
+    height:auto;
+    width:100%;
+}
+
+.card {
+    border: 2px solid black;
+    box-shadow: 3px 2px 7px rgb(143, 152, 156);
+    text-align:center;
+    width: 280px;
+    height: 350px;
+    border-radius:22px;
+    margin: 15px 15px;
+}
+
+.name {
+    font-size:25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.name::before {
+    content: "Name: ";
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:30px;
+}
+
+.profession {
+    font-size:25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.profession::before {
+    content: "Profession: ";
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:30px;
+}
+
+.email {
+    font-size:25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.email::before {
+    content: "Email: ";
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:30px;
+}
+
+.divDeleteButton {
+    opacity:0;
+    width: 130px;
+    height: 45px;
+    content: "Delete";
+    position: relative;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(185, 221, 233);
+    font-size: 20px;
+    box-shadow: 1px 1px 8px rgb(143, 152, 156);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.card:hover .divDeleteButton {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.divDeleteButton::before { 
+    content: "Delete";
+}

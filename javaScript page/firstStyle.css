@@ -1,0 +1,59 @@
+body {
+    background-color:rgb(185, 221, 233);
+    margin:0;
+    padding:0;
+}
+
+.pages {
+    display:flex;
+    border: none; 
+    border-bottom: 2px solid black;
+    justify-content: center;
+    background-color:rgb(202, 202, 202);
+    height:50px;
+    padding:55;
+}
+
+.pages a {
+    padding:5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:25px;
+    color:black;
+    background-color:rgb(185, 221, 233);
+    font-family:'Open Sans', sans-serif;
+}
+
+.dateAndTime {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:auto;
+    text-align:center;
+}
+
+#dateElement {
+    font-family:'Open Sans', sans-serif;
+    font-size:65px;
+    margin:0,auto;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+#timeElement {
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size:200px;
+    margin:0,auto;
+    margin-top:-50px;
+}
+
+#welcomeTitle {
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size:65px;
+    font-weight:bold;
+    margin:0,auto;
+    margin-top:50px;
+}

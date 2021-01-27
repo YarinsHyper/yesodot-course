@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cards</title>
+    <link rel="stylesheet" href="cardsStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="topLayer">
+        <div><input type="text" id="usernameInput" name="username" placeholder="Enter name" onkeypress="return isLetter(event)"></div>
+        <div><input type="text" id="professionInput" name="profession" placeholder="Enter profession"></div>
+        <div><input type="text" id="emailInput" name="email" placeholder="Enter Email"></div>
+        <div><button type="button" id="buttonInsert" onclick="submitCard()" >Submit</button></div>
+        <div><button type="button" id="buttonResetPage" onclick="ResetPage()">Reset</button></div>
+    </div>
+
+    <div id="lsOutput"></div>
+      
+
+    <script src="cardsMain.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+body {
+    background-color:rgb(185, 221, 233);
+    margin:0;
+    padding:0;
+}
+
+#resetButton {
+    padding: 5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0px 35px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(185, 221, 233);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topLayer {
+    display: flex;
+    border: none;
+    border-bottom: 2px solid black;
+    justify-content: center;
+    background-color: rgb(202, 202, 202);
+    height: 50px;
+    padding: 55;
+}
+
+#palindromeInput {
+    padding: 5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0px 35px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(185, 221, 233);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#palindromeButton {
+    padding: 5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0px 35px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(185, 221, 233);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#englishString {
+    padding: 5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0px 35px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(185, 221, 233);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#numberInput {
+    padding: 5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0px 35px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(185, 221, 233);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#encryptButton {
+    padding: 5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0px 35px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(185, 221, 233);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#decryptButton {
+    padding: 5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0px 35px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(185, 221, 233);
+    font-family: 'Open Sans', sans-serif;
+}

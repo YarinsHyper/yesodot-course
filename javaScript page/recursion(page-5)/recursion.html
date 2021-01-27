@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Recursion</title>
+    <link rel="stylesheet" href="recursionStyle.css">
+</head>
+
+<body>
+    <div class="topLayer">
+        <div><input type="button" id="fibonacciButton" name="number" value="Submit" onclick="showFibonacciSeries()"></div>
+        <div><input type="text" id="input" name="number"></div>
+        <h1>Size of triangle:</h1>
+        <div><input type="range" id="sizeSlider" min="100" max="700" value="400" oninput="trianglesSize()"></div>
+        <h2>Amount of triangles:</h2>
+        <div><input type="range" id="amountSlider" min="0" max="8" value="1" oninput="trianglesAmount()"></div>
+    </div>
+
+    <div class="fibonacci">
+        <p id="fibonacciSeries"></p></div>
+        <canvas id="myCanvas" width="700" height="700"></canvas>
+    </div>
+    
+    <script src="recursionMain.js"></script>
+</body>
+
+
+</html>
