@@ -1,0 +1,54 @@
+body {
+    background-color:rgb(185, 221, 233);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:120;
+    text-align:center;
+    margin-top:40px;
+}
+
+#parameterInput {
+    font-family:'Open Sans', sans-serif;
+    font-size:25px;
+    margin:0,auto;
+    font-weight:bold;
+}
+
+#submitButton {
+    font-family:'Open Sans', sans-serif;
+    font-size:25px;
+    margin:0,auto;
+    font-weight:bold;
+}
+
+#inputNumberOne {
+    font-family:'Open Sans', sans-serif;
+    font-size:25px;
+    margin:0,auto;
+    font-weight:bold;
+}
+
+#inputNumberTwo {
+    font-family:'Open Sans', sans-serif;
+    font-size:25px;
+    margin:0,auto;
+    font-weight:bold;
+}
+
+#submitButtonTwo {
+    font-family:'Open Sans', sans-serif;
+    font-size:25px;
+    margin:0,auto;
+    font-weight:bold;
+}
+
+#submitButtonThree {
+    font-family:'Open Sans', sans-serif;
+    font-size:25px;
+    margin:0,auto;
+    font-weight:bold;
+}
