@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Head Soccer-Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="images/logo/logo.png">
+</head>
+
+<body>
+  <button type="button" id="resetScore" onclick="resetScore()">Reset Game</button>
+  <img id="menuBack" src="./images/arrows/arrow.png" width="50" height="30" onclick="backMenu()"> 
+  <img id="playerOneRight" src="./images/arrows/arrow-left.png" width="50" height="30" onclick="player1func1()"> 
+  <img id="playerOneLeft" src="./images/arrows/arrow-right.png" width="50" height="30" onclick="player1func2()"> 
+  <img id="playerTwoRight" src="./images/arrows/arrow-left.png" width="50" height="30" onclick="player2func1()"> 
+  <img id="playerTwoLeft" src="./images/arrows/arrow-right.png" width="50" height="30" onclick="player2func2()"> 
+  <img id="pauseImage" src="images/pause-images/pause-button.png" onclick="pauseGame()">
+  <canvas id="myCanvas" width="1920" height="900"></canvas>
+  
+</body>
+
+<script type="module" src="main.js"> </script>
+
+</html>

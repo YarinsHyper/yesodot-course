@@ -1,0 +1,93 @@
+body {
+    background-color:lightgray;
+    margin:0;
+    padding:0;
+}
+
+.pages {
+    display:flex;
+    justify-content: center;
+    background-color:lightgray;
+    height:50px;
+    padding:15;
+}
+
+button {
+    padding:8;
+    text-decoration: none;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:25px;
+    color:black;
+    background-color:rgba(184, 222, 235, 0.938);
+}
+
+#play-button {
+    padding:5;
+    text-decoration: none;
+    border: 1.9px solid black;
+    font-weight:bold;
+    border-radius: 3px;
+    margin: 0px 40px;
+    font-size:25px;
+    color:black;
+    background-color:rgba(184, 222, 235, 0.938);
+    font-family:'Open Sans', sans-serif;
+}
+
+#welcomeTitle {
+    font-family:'Open Sans', sans-serif;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-bottom:80px;
+    margin-left: 500px;
+}
+
+.players-box {
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: white;
+    width:70%;
+    height:auto;
+    background-color:lightgray;
+    margin-left:550px;
+    margin-top:60px;
+}
+
+.players-box > div {
+    background-color:darkgray;
+    border: 2px solid gray;
+    box-shadow: 3px 2px 7px rgb(143, 152, 156);
+    width: 280px;
+    height:350px;
+    border-radius:12px;
+    margin: 0 40px;
+    padding: 18px;
+    margin-bottom: 130px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.players-box > div:hover {
+    border: 2.3px solid rgb(185, 221, 233);
+}
+
+#player-image-1{
+    width:130px;
+    height:130px;
+}
+
+#player-image-2{
+    width:130px;
+    height:130px;
+}
+
+#player-name {
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    margin-top:-10px;
+}

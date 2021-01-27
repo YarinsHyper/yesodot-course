@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Character Selection</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="../head-soccer-game/images/logo/logo.png">
+</head>
+
+<body>
+    <p id="welcomeTitle">Choose Characters</p>
+    <div class="pages">
+        <div><button type="button" id="player2ButtonLeft" onclick="playerTwoRightButton()">←</button></div>
+        <div><button type="button" id="player2ButtonRight" onclick="playerTwoLeftButton()">→</button></div>
+        <div><a id="play-button" href="../head-soccer-game/index.html">Play</a></div>
+        <!-- <div><button  id="play-button" onclick="playButton()">start</button></div> -->
+        <!-- <div><button type="button" id="playButton" >RELOAD</button></div> -->
+        <div><button type="button" id="player1ButtonLeft" onclick="playerOneRightButton()">←</button></div>
+        <div><button type="button" id="player1ButtonRight" onclick="playerOneLeftButton()">→</button></div>
+    </div>
+
+    <div class="players-box">
+        <div class="player-2">
+            <p id="player-name">Player 2</p>
+          <img id="player-image-2" src="">
+        </div>
+  
+        <div class="player-1">
+            <p id="player-name">Player 1</p>
+          <img id="player-image-1" src="">
+        </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

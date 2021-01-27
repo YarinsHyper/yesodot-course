@@ -1,0 +1,26 @@
+body {
+    background-color:lightgray;
+}
+
+#about-text {
+    font-size:25px;
+    margin-top:50px;
+    font-family:'Open Sans', sans-serif;
+}
+
+h1 {
+    margin-left:45%;
+    font-size:55px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+#logo {
+    position:absolute;
+}
+
+#backImage {
+    position:absolute;
+    margin-left: 1800px;
+    margin-top:20px;
+}
