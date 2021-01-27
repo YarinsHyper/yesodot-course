@@ -1,0 +1,127 @@
+body {
+  background-color:#e5e5e5;
+  padding:0; 
+  margin:0;
+}
+
+.gray-bar-div {
+    height: 350;
+    background-color: #4b585e;
+    color: white;
+    font-size: 23;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 10;
+  margin-top:45px;
+  margin-left:15px;
+  font-size:37;
+  position:relative;
+  left:25
+}
+
+.box {
+  height:450px;
+  width:500px;  
+  position: absolute;
+  margin-left: -290px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: 30vh;
+  left: 50vw;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+}
+
+#title {
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  font-weight:500;
+  top:16vh;
+  left:-2vw;
+  text-align:center;
+}
+
+.text-in-box {
+  margin-left:2vw;
+  margin-top:-5vh;
+  display:flex;
+  text-align:left;
+}
+
+#login-button {
+  height:40px;
+  width:120px;
+  margin-top:360px;
+  margin-left:-245px;
+  color:white;
+  background-color:#4fbc9e;
+  border:white;
+  font-family: 'Open Sans', sans-serif;
+  font-size:22px;
+}
+
+#forgot-password-button {
+  height:32px;
+  width:180px;
+  margin-top:362px;
+  margin-left:-320px;
+  color:black;
+  background-color:white;
+  border:none;
+  font-family:"Gill Sans";
+  font-size:22px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#remember-box {
+  margin-left:-140px;
+  position:relative;
+  top:50px;  
+  left:-185px;
+}
+
+#remember-me {
+  position:relative;
+  top:50px;
+  left:-185px;
+  font-size:20px;  
+}
+
+#username {
+  border:none;
+  border-bottom:2px solid gray;
+  font-size:20;
+  margin-top:140px;
+  margin-left:-60px; 
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width:320px;
+}
+
+#pwd {
+  width:320px;
+  border:none;
+  font-size:20;
+  border-bottom:2px solid gray;
+  margin-top:40px;
+  margin-left:-58px;
+} 
+
+hr {
+  margin-top:92px;
+  margin-left:10px;
+  position:relative;
+  display:flex;
+  width:400px;
+  left:-96px;
+}

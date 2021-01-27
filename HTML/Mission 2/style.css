@@ -1,0 +1,680 @@
+body {
+    margin:0;
+}
+
+.container {
+    display:flex;
+    background-color:rgb(185, 221, 233);
+    justify-content: space-between;
+    height:auto;
+}
+
+.container > div {
+    margin: 6px;
+    font-size: 17px;
+}
+
+.container-two {
+    display:flex;
+    background-color:rgb(185, 221, 233);
+    justify-content: space-between;
+}
+
+.middle-headers a {
+    margin: 16px 16px;
+    text-decoration: none;
+    font-size:16px;
+    font-family:'Open Sans', sans-serif;
+    color:black;
+}
+
+.left-header a {
+    margin: 10px;
+    text-decoration: none;
+    font-size:16px;
+    font-family:'Open Sans', sans-serif;
+    color:black;
+}
+
+.right-headers img {
+    margin:-10px;
+    position: relative;
+    left:-10px;
+}
+
+.middle-headers-two a {
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size:16px;
+    font-family:'Open Sans', sans-serif;
+    color:black;
+    font-weight:bold;
+}
+
+.right-headers-two a {
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size:16px;
+    font-family:'Open Sans', sans-serif;
+    color:black;
+    font-weight:bold;
+}
+
+.right-headers-two {
+    margin-top:10px;
+}
+
+.middle-headers-two {
+    margin-left:50px;
+    margin-top:10px;
+}
+
+.left-header-two {
+    margin-top:10px;
+    margin-left:150px;
+ }
+
+#language {
+    border:none;
+    outline:none;
+    background-color:rgb(185, 221, 233);
+}
+
+#language2 {
+    border:none;
+    outline:none;
+    background-color:rgb(185, 221, 233);
+    position: relative;
+    top: 12px;
+}
+
+.right-headers-container-one img {
+    position: relative;
+    top:21px;
+}
+
+#category {
+    border:none;
+    outline:none;
+    background-color:rgb(185, 221, 233);
+    font-size:16px;
+    height:25px;
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+}
+
+img {
+    margin-left:160px;
+    margin-top:-370px;
+}
+
+.logo  {
+    margin-left:140px;
+    display: flex;
+    justify-content: space-between;
+    width:120px;
+}
+
+.logo img {
+    margin:0 !important;
+}
+
+.top-container {
+    display:flex;
+    justify-content: space-between;
+    margin:10;
+}
+
+label {
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:14.5px;
+    position: relative;
+    top:-1px;
+}
+
+h1 {
+    font-size:16px;
+    font-family:'Open Sans', sans-serif;
+}
+
+h2 {
+    font-size:18px;
+    font-family:'Open Sans', sans-serif;
+    margin-left:3px;
+}
+
+h3 {
+    font-family:'Open Sans', sans-serif;
+    color:gray;
+    margin-left: 10px;
+}
+
+#items-in-cart {
+    width:130px;
+}
+
+.back-border {
+    border: 4px solid rgb(185, 221, 233);
+    display: flex;
+    background-color:white;
+    border-radius: 25px;
+    width:1102px;
+    height:65px;
+    margin-left:20px;
+    border: 4px solid rgb(185, 221, 233);
+    box-shadow: 3px 3px 5px rgb(143, 152, 156);
+}
+
+.middle-back-border {
+    display:flex;
+    justify-content: space-between;
+    border: 4px solid rgb(185, 221, 233);
+    background-color:white;
+    border-radius: 25px;
+    position:relative;
+    left:4vw;
+    margin:auto;
+    top:-30px;
+    width:55%;
+    height:65px;
+    border: 4px solid rgb(185, 221, 233);
+    box-shadow: 3px 3px 3px rgb(143, 152, 156);
+}
+
+.middle-back-border a {
+    font-family:'Open Sans', sans-serif;
+    margin-top:20px;
+    margin-left:25px;
+    position: relative;
+}
+
+#categories-middle {
+    width:105px;
+    height:32px;
+    border:none;
+    outline:none;
+    background-color:rgb(185, 221, 233);
+    font-size:16px;
+    position:relative;
+    border-radius: 12px;
+}
+
+.middle-back-border a2 {
+    font-family:'Open Sans', sans-serif;
+    font-size:19px;
+    position: relative;
+}
+
+.border-inside-border {
+    border: 2px solid;
+    border:none;
+    display:flex;
+    background-color:rgb(185, 221, 233);
+    border-radius: 20px;
+    box-shadow: 1px 1.2px 4px rgb(143, 152, 156);
+    margin-top:5px;
+    margin-left:5px;
+    height:56px;
+    width:210px;
+}
+
+#categories {
+    border:none;
+    outline:none;
+    background-color:rgb(185, 221, 233);
+    margin-top:14px;
+    width:110px;
+    height:30px;
+    font-size:18px;
+}
+
+#search-bar-id {
+    width:65%;
+    height:40px;
+    margin-top:10px;
+    margin-left:10px;
+    border:none;
+    border-left: 2px solid gray;
+    font-size:18px;
+}
+
+.search-box-border {
+    border: 2px solid;
+    border:none;
+    background-color:rgb(185, 221, 233);
+    border-radius: 20px;
+    margin-left:45px;
+    margin-top:2px;
+    height:57px;
+    width:110px; 
+    box-shadow: 3px 3px 5px rgb(143, 152, 156);
+}
+
+button {
+    width:10px;
+    height:40px;
+    margin-left:35%;
+    margin-top:8px;
+    border:none;
+    background-color:rgb(185, 221, 233);
+    font-size:26px;
+}  
+
+#arrow-down {
+    margin-top:27px;
+}
+
+.shop img {
+    margin:0 !important;
+}
+
+.shop {
+    display:flex;
+    justify-content: space-between;
+}
+
+#cover-image img {
+    width:99.1vw;
+    display:block;
+    height:300;
+    margin-left: 0px;
+    margin-top:0;
+}
+
+.side-bar {
+    border: 2px solid;
+    background-color:rgb(185, 221, 233);
+    box-shadow: 1.5px 3px 5px rgb(143, 152, 156);
+    border:none;
+    border-radius:6px;
+    width:210px;
+    height:630px;
+    margin-top:60vh;
+    margin-left:15vw;
+}
+
+#price-range {
+    position: relative;
+    top:0px;
+    left:20px;
+    width:160px;
+    color:lightblue
+}
+
+.price-under-range {
+    position: relative;
+    justify-content: space-between;
+    margin:25px;
+    display:flex;
+    top:-20px;
+}
+
+.price-under-range a {
+    color:gray;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.side-bar a3 {
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top:12px;
+    left:18px;
+}
+
+.side-bar a4 {
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top:140px; 
+    left:-26px;
+}
+
+.side-bar a5 {
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top:268px;
+    left:-90px;
+}
+
+.side-bar a6 {
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top:468px;
+    left:18px;
+}
+
+.side-bar a7 {
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top:520px;
+    left:-80px;
+}
+
+.side-bar a8 {
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top:550px;
+    left:18px;
+}
+
+#hr1 {
+    width:208px;
+    margin-top:-30px;
+    border-color:rgb(112, 100, 100);
+}
+
+#hr2 {
+    width:208px;
+    margin-top:50px;
+    border-color:rgb(112, 100, 100);
+}
+
+#hr3 {
+    width:208px;
+    margin-top:85px;
+    border-color:rgb(112, 100, 100);
+}
+
+#hr4 {
+    width:208px;
+    margin-top:50px;
+    border-color:rgb(112, 100, 100);
+}
+
+#hr5 {
+    width:208px;
+    margin-top:50px;
+    border-color:rgb(112, 100, 100);
+}
+
+.options-bar {
+    position: relative;
+    top:38px;
+    left:13px;
+    font-size:17px ;
+}
+
+.small-search-bar-back {
+    position:relative;
+    left:18px;
+    top:48px;
+    width:170px;
+    height:28px;
+    border:none;
+    border-radius:10px;
+    background-color:rgb(185, 221, 233);
+    font-size:15px;
+    outline:none;
+}
+
+#small-search-bar-id {
+    position:relative;
+    left:0px;
+    top:-40px;
+    width:140px;
+    height:28px;
+    border:none;
+    border-radius:10px;
+    border: 2px solid gray;
+    background-color:rgb(185, 221, 233);
+    font-size:15px;
+    outline:none;
+}
+
+.small-search-bar-back button {
+    position: relative;
+    top:-6px;
+    left:85px;
+}
+
+.company-options {
+    position: relative;
+    top:70px;
+    left:13px;
+}
+
+.main-container {
+    display:flex;
+    justify-content: space-between;
+    margin-top:-35vh;
+    margin-left:-150px;
+}
+
+.flex-container-middle {
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: white;
+    width:70%;
+    height:auto;
+    margin-top:45vh;
+  }
+  
+  .flex-container-middle > div {
+    background-color:white;
+    border: 2px solid gray;
+    box-shadow: 3px 2px 7px rgb(143, 152, 156);
+    width: 280px;
+    height:350px;
+    border-radius:12px;
+    margin: 0 40px;
+    padding: 18px;
+    margin-bottom: 130px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+.flex-container-middle > div:hover {
+    border: 2.3px solid red;
+    
+}
+
+.bottom-border {
+    border: 4px solid rgb(185, 221, 233);
+    display:flex;
+    justify-content: space-between;
+    background-color:white;
+    border-radius: 25px;
+    margin-left:25vw;
+    width:60%;
+    height:65px;
+    border: 4px solid rgb(185, 221, 233);
+    box-shadow: 3px 3px 5px rgb(143, 152, 156);
+}
+
+.right-side-middle {
+    margin-top:15px;
+    margin-left:150px;
+}
+
+.bottom-left-text {
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:18px;
+    position: relative;
+    top:18px;
+    left:40px;
+
+}
+
+.bottom-left-text a {
+    text-decoration: none;
+    color:black;
+}
+
+.bottom-right-text a {
+    text-decoration: none;
+    color:black;
+}
+
+.bottom-middle-text {
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:18px;
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    top:14px;
+}
+
+.number a {
+    position: relative;
+    top:-30px;
+    text-decoration: none;
+    color:black;
+}
+
+.bottom-middle-text > div{
+    margin:12px;
+    position:relative;
+    top:-12px;
+    text-align:center;
+    z-index:3;
+}
+
+.number-border {
+    opacity: 0;
+    border: 4px solid rgb(185, 221, 233);
+    background-color:rgb(185, 221, 233);
+    box-shadow: 3px 3px 5px rgb(143, 152, 156);
+    color:black;
+    border-radius: 25px;
+    width:30px;
+    height:30px;
+    position: relative;
+    top:0px;
+}
+
+.bottom-middle-text div:hover div {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.bottom-right-text {
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:18px;
+    position: relative;
+    top:18px;
+    left:-40px;
+} 
+
+.square button {
+    opacity:0;
+    width:130px;
+    height:45px;
+    position:relative;
+    border-radius:20px;
+    top:340px;
+    left:-45px;  
+    border:none;
+    background-color:rgb(185, 221, 233);
+    font-size:16px;
+    box-shadow: 3px 3px 5px rgb(143, 152, 156);
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+} 
+
+.square:hover > button {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.image-in-box {
+    width:160px;
+    height:230px;
+    position:relative;
+    top:330px;
+    left:-97px;
+  }
+
+.small-title {
+      position: relative;
+      font-family:'Open Sans', sans-serif;
+      font-size:22px;
+      top:155px;
+      font-weight:bold;
+}
+
+.small-desc {
+    position: relative;
+    font-family:'Open Sans', sans-serif;
+    font-size:16px;
+    top:85px;
+    color:gray;
+}
+
+.small-price {
+    position: relative;
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:23px;
+    top:14px;
+}
+
+.bottom-container-one {
+    display:flex; 
+    justify-content: space-between; 
+    background-color:rgb(185, 221, 233);
+    flex-wrap:wrap;
+    margin-top:8vh;
+}
+
+.left-headers-container-one{
+    display:flex; 
+    justify-content: space-between;
+    position: relative;
+}
+
+.left-headers-container-one a{
+    text-decoration: none;
+    color:black;
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    position: relative;
+    margin:16px;
+    top:9px;
+    font-size:16px;
+}
+
+.left-headers-container-two a {
+    text-decoration: none;
+    color:black;
+    font-family:'Open Sans', sans-serif;
+    position: relative;
+    margin:16px;
+    top:9px;
+    font-size:15px;
+}
+
+.left-headers-container-two{
+    display:flex; 
+    justify-content: space-between;
+    position: relative;
+    margin:6px;
+}
+
+.right-headers-container-two{
+    text-decoration: none;
+    color:black;
+    font-family:'Open Sans', sans-serif;
+    position: relative;
+    margin:16px;
+    top:-5px;
+    font-size:15px;
+}
+
+.bottom-container-two {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between; 
+    background-color:rgb(185, 221, 233);
+    margin-top:10px;
+}   
